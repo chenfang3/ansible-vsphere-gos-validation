@@ -76,15 +76,15 @@
 #####################################
 
 # vCenter Server information
-vcenter_hostname: "vc.test.com"
-vcenter_username: "Administrator@vsphere.local"
-vcenter_password: "CHANGEME"
-datacenter: "MyDatacenter"
+vcenter_hostname: "10.20.49.127"
+vcenter_username: "root"
+vcenter_password: "Deepin@12#$"
+datacenter: "Datacenter"
 
 # ESXi Server information
-esxi_hostname: "esxi.test.com"
+esxi_hostname: "10.20.49.168"
 esxi_username: "root"
-esxi_password: "CHANGEME"
+esxi_password: "Deepin@12#$"
 
 # ESXi default shell command. Default shell command is "/bin/sh"
 # esxi_shell: "/bin/sh"
@@ -104,9 +104,9 @@ validate_certs: false
 # executed with root user.
 # For Windows client: user name is 'test', password is B1gd3m0z.
 # For Windows Server: user name is 'Administrator', password is B1gd3m0z.
-vm_name: "CentOS_82_ansible_test"
-vm_username: "root"
-vm_password: "B1gd3m0z"
+vm_name: "uos1050u2t"
+vm_username: "uos"
+vm_password: "1"
 # vm_folder: ''
 
 # For Windows testing only.
